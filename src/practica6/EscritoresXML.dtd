@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/EscritoresXML.dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE escritores SYSTEM "EscritoresXML.dtd">
+
+    <escritores>
+    ...
+    </escritores>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT escritores (escritor)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT escritor (nombre|nacimiento)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT nombre (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT nacimiento (#PCDATA)>

@@ -1,0 +1,5 @@
+/* Cascade style sheet based on EscritoresXML.dtd DTD */
+escritores { display: block }
+escritor { display: block }
+nombre { display: block }
+nacimiento { display: block }
